@@ -14,9 +14,6 @@ function Layout() {
         
         <Link to="/" className="btn"><LayoutDashboard size={16} /> Dashboard</Link>
         <Link to="/search" className="btn"><Search size={16} /> Combo Search</Link>
-        <Link to="/reports" className="btn"><FileText size={16} /> All Reports</Link>
-        <Link to="/pathologies" className="btn"><Activity size={16} /> Pathologies</Link>
-        <Link to="/regions" className="btn"><Database size={16} /> Regions</Link>
         
         <div style={{ marginTop: 'auto', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
           <div className="status-light" style={{ width: '8px', height: '8px', background: 'var(--accent-color)', borderRadius: '50%', display: 'inline-block', boxShadow: 'var(--accent-glow)', marginRight: '5px' }}></div>
@@ -304,9 +301,6 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
             <Route path="search" element={<ComboSearch />} />
-            <Route path="reports" element={<ComboSearch />} />
-            <Route path="pathologies" element={<ComboSearch />} />
-            <Route path="regions" element={<ComboSearch />} />
             <Route path="report/:slug" element={<ReportView />} />
             <Route path="*" element={<div>MODULE OFFLINE (404)</div>} />
           </Route>
