@@ -46,19 +46,19 @@ function Dashboard() {
         </div>
         <div className="pacs-panel" style={{ padding: '20px' }}>
           <h3 style={{ margin: '0 0 10px 0', color: 'var(--text-muted)' }}>Pathologies Tracked</h3>
-          <div style={{ fontSize: '2.5rem', color: 'var(--accent-color)' }}>{Object.keys(stats.pathologies).length}</div>
+          <div style={{ fontSize: '2.5rem', color: 'var(--accent-color)' }}>{Object.keys(stats.pathCounts || {}).length}</div>
         </div>
         <div className="pacs-panel" style={{ padding: '20px' }}>
           <h3 style={{ margin: '0 0 10px 0', color: 'var(--text-muted)' }}>Body Regions</h3>
-          <div style={{ fontSize: '2.5rem', color: 'var(--accent-color)' }}>{Object.keys(stats.regions).length}</div>
+          <div style={{ fontSize: '2.5rem', color: 'var(--accent-color)' }}>{Object.keys(stats.regionCounts || {}).length}</div>
         </div>
       </div>
       
       <div style={{ marginTop: '40px' }}>
         <h2 className="clinical-text">Top Pathologies</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-          {Object.entries(stats.pathologies).sort((a,b)=>b[1]-a[1]).slice(0,20).map(([p, v]) => (
-            <Link key={p} to={`/search?pathology=${encodeURIComponent(p)}`} className="badge" style={{ cursor: 'pointer', border: '1px solid var(--panel-border)' }}>
+          {Object.entries(stats.pathCounts || {}).sort((a,b)=>b[1]-a[1]).slice(0,20).map(([p, v]) => (
+            <Link key={p} to={`/search?pathology=${encodeURIComponent(p)}`} className="badge" style={{ cursor: 'pointer', border: '1px solid var(--panel-border)', textDecoration: 'none', color: 'var(--text-primary)' }}>
               {p} ({v})
             </Link>
           ))}
@@ -81,7 +81,7 @@ function ComboSearch() {
     return searchParams.get('region') || '';
   });
   
-  const allPathologies = Object.keys(stats.pathologies).sort();
+  const allPathologies = Object.keys(stats.pathCounts || {}).sort();
   
   const handlePathChange = (e) => {
     const val = e.target.value;
@@ -133,7 +133,7 @@ function ComboSearch() {
           <label style={{ display: 'block', marginBottom: '8px', color: 'var(--accent-color)' }}>Body Region:</label>
           <select value={selectedRegion} onChange={(e) => setSelectedRegion(e.target.value)}>
              <option value="">All Regions</option>
-             {Object.keys(stats.regions).sort().map(r => <option key={r} value={r}>{r}</option>)}
+             {Object.keys(stats.regionCounts || {}).sort().map(r => <option key={r} value={r}>{r}</option>)}
           </select>
         </div>
       </div>
