@@ -238,8 +238,8 @@ export default function App() {
     async function loadData() {
       try {
         const [repRes, statRes] = await Promise.all([
-          fetch('/data/parsed_reports.json'),
-          fetch('/data/stats.json')
+          fetch(`${import.meta.env.BASE_URL}data/parsed_reports.json`),
+          fetch(`${import.meta.env.BASE_URL}data/stats.json`)
         ]);
         const repData = await repRes.json();
         const statData = await statRes.json();
@@ -262,7 +262,7 @@ export default function App() {
 
   return (
     <DataContext.Provider value={{ reports, stats, loading }}>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
