@@ -31,7 +31,6 @@ created: 2026-04-05
 | [[pathologies/hemangioma|Hemangioma]] | 1 | 5.3% |
 | [[pathologies/ganglion-cyst|Ganglion Cyst]] | 1 | 5.3% |
 | [[pathologies/tendinopathy|Tendinopathy]] | 1 | 5.3% |
-| [[pathologies/carpal-tunnel-syndrome|Carpal Tunnel Syndrome]] | 1 | 5.3% |
 
 ## Reporting Doctors
 

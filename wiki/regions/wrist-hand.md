@@ -28,11 +28,11 @@ created: 2026-04-05
 | [[pathologies/tendinopathy|Tendinopathy]] | 69 | 56.6% |
 | [[pathologies/ganglion-cyst|Ganglion Cyst]] | 38 | 31.1% |
 | [[pathologies/fracture|Fracture]] | 31 | 25.4% |
-| [[pathologies/carpal-tunnel-syndrome|Carpal Tunnel Syndrome]] | 28 | 23.0% |
 | [[pathologies/infection|Infection]] | 27 | 22.1% |
 | [[pathologies/degenerative-changes|Degenerative Changes]] | 27 | 22.1% |
 | [[pathologies/tumor-mass|Tumor/Mass]] | 24 | 19.7% |
 | [[pathologies/bone-marrow-edema|Bone Marrow Edema]] | 12 | 9.8% |
+| [[pathologies/carpal-tunnel-syndrome|Carpal Tunnel Syndrome]] | 9 | 7.4% |
 | [[pathologies/avascular-necrosis|Avascular Necrosis]] | 6 | 4.9% |
 | [[pathologies/ligament-injury|Ligament Injury]] | 3 | 2.5% |
 | [[pathologies/hemangioma|Hemangioma]] | 2 | 1.6% |

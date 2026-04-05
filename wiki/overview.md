@@ -85,7 +85,7 @@ sources: 2
 | [[pathologies/lipoma|Lipoma]] | 351 | 5.6% |
 | [[pathologies/annular-tear|Annular Tear]] | 341 | 5.5% |
 | [[pathologies/ganglion-cyst|Ganglion Cyst]] | 328 | 5.2% |
-| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 289 | 4.6% |
+| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 288 | 4.6% |
 | [[pathologies/modic-changes|Modic Changes]] | 279 | 4.5% |
 
 → See all pathologies: [[index#Pathology Pages]]

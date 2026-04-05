@@ -69,7 +69,7 @@ Complete catalog of all pages in the MSK MRI Knowledge Base.
 | [[pathologies/lipoma]] | 351 | 5.6% |
 | [[pathologies/annular-tear]] | 341 | 5.5% |
 | [[pathologies/ganglion-cyst]] | 328 | 5.2% |
-| [[pathologies/avascular-necrosis]] | 289 | 4.6% |
+| [[pathologies/avascular-necrosis]] | 288 | 4.6% |
 | [[pathologies/modic-changes]] | 279 | 4.5% |
 | [[pathologies/myelopathy]] | 279 | 4.5% |
 | [[pathologies/compression-fracture]] | 270 | 4.3% |
@@ -90,9 +90,9 @@ Complete catalog of all pages in the MSK MRI Knowledge Base.
 | [[pathologies/marrow-signal-abnormality]] | 62 | 1.0% |
 | [[pathologies/ankylosing-spondylitis]] | 55 | 0.9% |
 | [[pathologies/acl-injury]] | 54 | 0.9% |
-| [[pathologies/carpal-tunnel-syndrome]] | 31 | 0.5% |
 | [[pathologies/osteoarthritis]] | 26 | 0.4% |
 | [[pathologies/nerve-compression]] | 13 | 0.2% |
+| [[pathologies/carpal-tunnel-syndrome]] | 10 | 0.2% |
 | [[pathologies/mcl-injury]] | 8 | 0.1% |
 | [[pathologies/spondylolisthesis]] | 7 | 0.1% |
 | [[pathologies/pcl-injury]] | 5 | 0.1% |

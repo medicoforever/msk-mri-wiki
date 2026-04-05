@@ -32,9 +32,9 @@ created: 2026-04-05
 | [[pathologies/fracture|Fracture]] | 7 | 15.6% |
 | [[pathologies/hemangioma|Hemangioma]] | 6 | 13.3% |
 | [[pathologies/spondylolysis|Spondylolysis]] | 5 | 11.1% |
-| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 4 | 8.9% |
 | [[pathologies/schmorl-node|Schmorl Node]] | 3 | 6.7% |
 | [[pathologies/infection|Infection]] | 3 | 6.7% |
+| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 3 | 6.7% |
 | [[pathologies/myelopathy|Myelopathy]] | 2 | 4.4% |
 | [[pathologies/annular-tear|Annular Tear]] | 2 | 4.4% |
 | [[pathologies/sacroiliitis|Sacroiliitis]] | 2 | 4.4% |
