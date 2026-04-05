@@ -101,7 +101,7 @@ function parseFile(filePath, sourceLabel) {
       const bodyRegion = classifyRegion(studyType, reportText);
       
       // Extract key findings/pathologies
-      const pathologies = extractPathologies(reportText, impression);
+      const pathologies = extractPathologies(reportText, impression, bodyRegion);
       
       if (reportText.length > 50) {
         reports.push({
@@ -197,7 +197,7 @@ function classifyRegion(studyType, reportText) {
   return 'Other MSK';
 }
 
-function extractPathologies(reportText, impression) {
+function extractPathologies(reportText, impression, bodyRegion) {
   const text = (reportText + ' ' + impression).toUpperCase();
   const found = [];
   
@@ -237,7 +237,7 @@ function extractPathologies(reportText, impression) {
     { pattern: /GANGLION/i, label: 'Ganglion Cyst' },
     { pattern: /INFECTION|OSTEOMYELITIS|ABSCESS/i, label: 'Infection' },
     { pattern: /PLANTAR\s*FASCI/i, label: 'Plantar Fasciitis' },
-    { pattern: /ACHILLES/i, label: 'Achilles Tendon Pathology' },
+    { pattern: /\bACHILLES\b(?!\s*REFLEX)/i, label: 'Achilles Tendon Pathology' },
     { pattern: /CARPAL\s*TUNNEL/i, label: 'Carpal Tunnel Syndrome' },
     { pattern: /NERVE\s*(?:ROOT\s*)?COMPRESS/i, label: 'Nerve Compression' },
     { pattern: /RADICULOPATHY/i, label: 'Radiculopathy' },
@@ -253,6 +253,10 @@ function extractPathologies(reportText, impression) {
   
   for (const { pattern, label } of pathologyPatterns) {
     if (pattern.test(text) && !found.includes(label)) {
+      // Prevent false positives from reflex examination in spine studies
+      if (label === 'Achilles Tendon Pathology' && bodyRegion && bodyRegion.includes('Spine')) {
+        continue;
+      }
       found.push(label);
     }
   }

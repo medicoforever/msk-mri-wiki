@@ -20,31 +20,31 @@ created: 2026-04-05
 
 ## Distribution by Body Region
 
-| Region                   | Count            | % of this pathology |       |
-| ------------------------ | ---------------- | ------------------- | ----- |
-| [[regions/wrist-hand     | Wrist/Hand]]     | 28                  | 90.3% |
-| [[regions/cervical-spine | Cervical Spine]] | 2                   | 6.5%  |
-| [[regions/forearm        | Forearm]]        | 1                   | 3.2%  |
+| Region | Count | % of this pathology |
+|---|---|---|
+| [[regions/wrist-hand|Wrist/Hand]] | 28 | 90.3% |
+| [[regions/cervical-spine|Cervical Spine]] | 2 | 6.5% |
+| [[regions/forearm|Forearm]] | 1 | 3.2% |
 
 ## Commonly Co-occurring Pathologies
 
-| Pathology                           | Co-occurrence Count     | %   |       |
-| ----------------------------------- | ----------------------- | --- | ----- |
-| [[pathologies/synovitis             | Synovitis]]             | 25  | 80.6% |
-| [[pathologies/joint-effusion        | Joint Effusion]]        | 18  | 58.1% |
-| [[pathologies/tendinopathy          | Tendinopathy]]          | 17  | 54.8% |
-| [[pathologies/ganglion-cyst         | Ganglion Cyst]]         | 13  | 41.9% |
-| [[pathologies/degenerative-changes  | Degenerative Changes]]  | 12  | 38.7% |
-| [[pathologies/infection             | Infection]]             | 10  | 32.3% |
-| [[pathologies/tumor-mass            | Tumor/Mass]]            | 6   | 19.4% |
-| [[pathologies/avascular-necrosis    | Avascular Necrosis]]    | 3   | 9.7%  |
-| [[pathologies/disc-bulge-herniation | Disc Bulge/Herniation]] | 2   | 6.5%  |
-| [[pathologies/disc-desiccation      | Disc Desiccation]]      | 2   | 6.5%  |
-| [[pathologies/myelopathy            | Myelopathy]]            | 2   | 6.5%  |
-| [[pathologies/ligament-injury       | Ligament Injury]]       | 1   | 3.2%  |
-| [[pathologies/lipoma                | Lipoma]]                | 1   | 3.2%  |
-| [[pathologies/radiculopathy         | Radiculopathy]]         | 1   | 3.2%  |
-| [[pathologies/hemangioma            | Hemangioma]]            | 1   | 3.2%  |
+| Pathology | Co-occurrence Count | % |
+|---|---|---|
+| [[pathologies/synovitis|Synovitis]] | 25 | 80.6% |
+| [[pathologies/joint-effusion|Joint Effusion]] | 18 | 58.1% |
+| [[pathologies/tendinopathy|Tendinopathy]] | 17 | 54.8% |
+| [[pathologies/ganglion-cyst|Ganglion Cyst]] | 13 | 41.9% |
+| [[pathologies/degenerative-changes|Degenerative Changes]] | 12 | 38.7% |
+| [[pathologies/infection|Infection]] | 10 | 32.3% |
+| [[pathologies/tumor-mass|Tumor/Mass]] | 6 | 19.4% |
+| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 3 | 9.7% |
+| [[pathologies/disc-bulge-herniation|Disc Bulge/Herniation]] | 2 | 6.5% |
+| [[pathologies/disc-desiccation|Disc Desiccation]] | 2 | 6.5% |
+| [[pathologies/myelopathy|Myelopathy]] | 2 | 6.5% |
+| [[pathologies/ligament-injury|Ligament Injury]] | 1 | 3.2% |
+| [[pathologies/lipoma|Lipoma]] | 1 | 3.2% |
+| [[pathologies/radiculopathy|Radiculopathy]] | 1 | 3.2% |
+| [[pathologies/hemangioma|Hemangioma]] | 1 | 3.2% |
 
 ## Case Registry (31 cases)
 

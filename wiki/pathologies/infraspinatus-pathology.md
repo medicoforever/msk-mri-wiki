@@ -20,31 +20,31 @@ created: 2026-04-05
 
 ## Distribution by Body Region
 
-| Region                      | Count               | % of this pathology |       |
-| --------------------------- | ------------------- | ------------------- | ----- |
-| [[regions/shoulder          | Shoulder]]          | 167                 | 92.3% |
-| [[regions/cervical-spine    | Cervical Spine]]    | 13                  | 7.2%  |
-| [[regions/lumbosacral-spine | Lumbosacral Spine]] | 1                   | 0.6%  |
+| Region | Count | % of this pathology |
+|---|---|---|
+| [[regions/shoulder|Shoulder]] | 167 | 92.3% |
+| [[regions/cervical-spine|Cervical Spine]] | 13 | 7.2% |
+| [[regions/lumbosacral-spine|Lumbosacral Spine]] | 1 | 0.6% |
 
 ## Commonly Co-occurring Pathologies
 
-| Pathology                             | Co-occurrence Count       | %   |        |
-| ------------------------------------- | ------------------------- | --- | ------ |
-| [[pathologies/tendinopathy            | Tendinopathy]]            | 181 | 100.0% |
-| [[pathologies/degenerative-changes    | Degenerative Changes]]    | 153 | 84.5%  |
-| [[pathologies/joint-effusion          | Joint Effusion]]          | 115 | 63.5%  |
-| [[pathologies/labral-tear             | Labral Tear]]             | 78  | 43.1%  |
-| [[pathologies/subscapularis-pathology | Subscapularis Pathology]] | 73  | 40.3%  |
-| [[pathologies/rotator-cuff-tear       | Rotator Cuff Tear]]       | 68  | 37.6%  |
-| [[pathologies/supraspinatus-pathology | Supraspinatus Pathology]] | 25  | 13.8%  |
-| [[pathologies/disc-bulge-herniation   | Disc Bulge/Herniation]]   | 19  | 10.5%  |
-| [[pathologies/disc-desiccation        | Disc Desiccation]]        | 18  | 9.9%   |
-| [[pathologies/synovitis               | Synovitis]]               | 14  | 7.7%   |
-| [[pathologies/fracture                | Fracture]]                | 10  | 5.5%   |
-| [[pathologies/ganglion-cyst           | Ganglion Cyst]]           | 8   | 4.4%   |
-| [[pathologies/cord-signal-changes     | Cord Signal Changes]]     | 5   | 2.8%   |
-| [[pathologies/osteochondral-lesion    | Osteochondral Lesion]]    | 4   | 2.2%   |
-| [[pathologies/spondylolysis           | Spondylolysis]]           | 4   | 2.2%   |
+| Pathology | Co-occurrence Count | % |
+|---|---|---|
+| [[pathologies/tendinopathy|Tendinopathy]] | 181 | 100.0% |
+| [[pathologies/degenerative-changes|Degenerative Changes]] | 153 | 84.5% |
+| [[pathologies/joint-effusion|Joint Effusion]] | 115 | 63.5% |
+| [[pathologies/labral-tear|Labral Tear]] | 78 | 43.1% |
+| [[pathologies/subscapularis-pathology|Subscapularis Pathology]] | 73 | 40.3% |
+| [[pathologies/rotator-cuff-tear|Rotator Cuff Tear]] | 68 | 37.6% |
+| [[pathologies/supraspinatus-pathology|Supraspinatus Pathology]] | 25 | 13.8% |
+| [[pathologies/disc-bulge-herniation|Disc Bulge/Herniation]] | 19 | 10.5% |
+| [[pathologies/disc-desiccation|Disc Desiccation]] | 18 | 9.9% |
+| [[pathologies/synovitis|Synovitis]] | 14 | 7.7% |
+| [[pathologies/fracture|Fracture]] | 10 | 5.5% |
+| [[pathologies/ganglion-cyst|Ganglion Cyst]] | 8 | 4.4% |
+| [[pathologies/cord-signal-changes|Cord Signal Changes]] | 5 | 2.8% |
+| [[pathologies/osteochondral-lesion|Osteochondral Lesion]] | 4 | 2.2% |
+| [[pathologies/spondylolysis|Spondylolysis]] | 4 | 2.2% |
 
 ## Case Registry (181 cases)
 

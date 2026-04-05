@@ -185,6 +185,7 @@
   },
   "active": "884db9a00f8b1d16",
   "lastOpenFiles": [
+    "web-app/vite.config.js.timestamp-1775421366542-536019d0f462d.mjs",
     "web-app/vite.config.js.timestamp-1775420056590-9611207a8beb4.mjs",
     "web-app/dist/data/stats.json",
     "web-app/dist/data/parsed_reports.json",
@@ -197,7 +198,6 @@
     "web-app/dist",
     "web-app/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node",
     "web-app/node_modules/@rollup/rollup-win32-x64-msvc/README.md",
-    "web-app/node_modules/@rollup/rollup-win32-x64-msvc/package.json",
     "web-app/node_modules/lucide-react/README.md",
     "web-app/node_modules/string.prototype.repeat/README.md",
     "web-app/node_modules/object.assign/README.md",

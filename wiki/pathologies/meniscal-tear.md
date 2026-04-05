@@ -28,23 +28,23 @@ created: 2026-04-05
 
 ## Commonly Co-occurring Pathologies
 
-| Pathology                          | Co-occurrence Count    | %   |       |
-| ---------------------------------- | ---------------------- | --- | ----- |
-| [[pathologies/joint-effusion       | Joint Effusion]]       | 469 | 93.1% |
-| [[pathologies/degenerative-changes | Degenerative Changes]] | 405 | 80.4% |
-| [[pathologies/synovitis            | Synovitis]]            | 350 | 69.4% |
-| [[pathologies/osteochondral-lesion | Osteochondral Lesion]] | 269 | 53.4% |
-| [[pathologies/lipoma               | Lipoma]]               | 173 | 34.3% |
-| [[pathologies/fracture             | Fracture]]             | 133 | 26.4% |
-| [[pathologies/ganglion-cyst        | Ganglion Cyst]]        | 130 | 25.8% |
-| [[pathologies/baker-cyst           | Baker Cyst]]           | 111 | 22.0% |
-| [[pathologies/tendinopathy         | Tendinopathy]]         | 73  | 14.5% |
-| [[pathologies/bone-marrow-edema    | Bone Marrow Edema]]    | 46  | 9.1%  |
-| [[pathologies/acl-injury           | ACL Injury]]           | 33  | 6.5%  |
-| [[pathologies/avascular-necrosis   | Avascular Necrosis]]   | 31  | 6.2%  |
-| [[pathologies/ligament-injury      | Ligament Injury]]      | 24  | 4.8%  |
-| [[pathologies/infection            | Infection]]            | 17  | 3.4%  |
-| [[pathologies/compression-fracture | Compression Fracture]] | 14  | 2.8%  |
+| Pathology | Co-occurrence Count | % |
+|---|---|---|
+| [[pathologies/joint-effusion|Joint Effusion]] | 469 | 93.1% |
+| [[pathologies/degenerative-changes|Degenerative Changes]] | 405 | 80.4% |
+| [[pathologies/synovitis|Synovitis]] | 350 | 69.4% |
+| [[pathologies/osteochondral-lesion|Osteochondral Lesion]] | 269 | 53.4% |
+| [[pathologies/lipoma|Lipoma]] | 173 | 34.3% |
+| [[pathologies/fracture|Fracture]] | 133 | 26.4% |
+| [[pathologies/ganglion-cyst|Ganglion Cyst]] | 130 | 25.8% |
+| [[pathologies/baker-cyst|Baker Cyst]] | 111 | 22.0% |
+| [[pathologies/tendinopathy|Tendinopathy]] | 73 | 14.5% |
+| [[pathologies/bone-marrow-edema|Bone Marrow Edema]] | 46 | 9.1% |
+| [[pathologies/acl-injury|ACL Injury]] | 33 | 6.5% |
+| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 31 | 6.2% |
+| [[pathologies/ligament-injury|Ligament Injury]] | 24 | 4.8% |
+| [[pathologies/infection|Infection]] | 17 | 3.4% |
+| [[pathologies/compression-fracture|Compression Fracture]] | 14 | 2.8% |
 
 ## Case Registry (504 cases)
 

@@ -18,14 +18,14 @@ created: 2026-04-05
 
 ## Top Pathologies Reported
 
-| Pathology                           | Count                   |     |
-| ----------------------------------- | ----------------------- | --- |
-| [[pathologies/disc-bulge-herniation | Disc Bulge/Herniation]] | 1   |
-| [[pathologies/disc-desiccation      | Disc Desiccation]]      | 1   |
-| [[pathologies/compression-fracture  | Compression Fracture]]  | 1   |
-| [[pathologies/fracture              | Fracture]]              | 1   |
-| [[pathologies/degenerative-changes  | Degenerative Changes]]  | 1   |
-| [[pathologies/cord-signal-changes   | Cord Signal Changes]]   | 1   |
+| Pathology | Count |
+|---|---|
+| [[pathologies/disc-bulge-herniation|Disc Bulge/Herniation]] | 1 |
+| [[pathologies/disc-desiccation|Disc Desiccation]] | 1 |
+| [[pathologies/compression-fracture|Compression Fracture]] | 1 |
+| [[pathologies/fracture|Fracture]] | 1 |
+| [[pathologies/degenerative-changes|Degenerative Changes]] | 1 |
+| [[pathologies/cord-signal-changes|Cord Signal Changes]] | 1 |
 
 ## All Cases
 

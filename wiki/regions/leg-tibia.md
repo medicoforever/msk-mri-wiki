@@ -42,18 +42,18 @@ created: 2026-04-05
 
 ## Reporting Doctors
 
-| Doctor                           | Reports              |     |
-| -------------------------------- | -------------------- | --- |
-| [[radiologists/dr-raghul         | Dr. Raghul]]         | 14  |
-| [[radiologists/dr-rajiv-s-menon  | Dr. Rajiv S Menon]]  | 7   |
-| [[radiologists/dr-dhanyasree     | Dr. Dhanyasree]]     | 7   |
-| [[radiologists/dr-neethu         | Dr. Neethu]]         | 6   |
-| [[radiologists/dr-sarenya        | Dr. Sarenya]]        | 5   |
-| [[radiologists/dr-mithun         | Dr. Mithun]]         | 4   |
-| [[radiologists/dr-barani-gomathy | Dr. Barani Gomathy]] | 3   |
-| [[radiologists/dr-akila          | Dr. Akila]]          | 3   |
-| [[radiologists/dr-dharani        | Dr. Dharani]]        | 3   |
-| [[radiologists/dr-anjanasri      | Dr. Anjanasri]]      | 2   |
+| Doctor | Reports |
+|---|---|
+| [[radiologists/dr-raghul|Dr. Raghul]] | 14 |
+| [[radiologists/dr-rajiv-s-menon|Dr. Rajiv S Menon]] | 7 |
+| [[radiologists/dr-dhanyasree|Dr. Dhanyasree]] | 7 |
+| [[radiologists/dr-neethu|Dr. Neethu]] | 6 |
+| [[radiologists/dr-sarenya|Dr. Sarenya]] | 5 |
+| [[radiologists/dr-mithun|Dr. Mithun]] | 4 |
+| [[radiologists/dr-barani-gomathy|Dr. Barani Gomathy]] | 3 |
+| [[radiologists/dr-akila|Dr. Akila]] | 3 |
+| [[radiologists/dr-dharani|Dr. Dharani]] | 3 |
+| [[radiologists/dr-anjanasri|Dr. Anjanasri]] | 2 |
 
 ## Case Registry (99 cases)
 

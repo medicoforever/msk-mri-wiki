@@ -36,23 +36,23 @@ created: 2026-04-05
 
 ## Commonly Co-occurring Pathologies
 
-| Pathology                           | Co-occurrence Count     | %   |       |
-| ----------------------------------- | ----------------------- | --- | ----- |
-| [[pathologies/degenerative-changes  | Degenerative Changes]]  | 315 | 90.0% |
-| [[pathologies/joint-effusion        | Joint Effusion]]        | 216 | 61.7% |
-| [[pathologies/synovitis             | Synovitis]]             | 211 | 60.3% |
-| [[pathologies/meniscal-tear         | Meniscal Tear]]         | 173 | 49.4% |
-| [[pathologies/disc-bulge-herniation | Disc Bulge/Herniation]] | 115 | 32.9% |
-| [[pathologies/disc-desiccation      | Disc Desiccation]]      | 109 | 31.1% |
-| [[pathologies/osteochondral-lesion  | Osteochondral Lesion]]  | 79  | 22.6% |
-| [[pathologies/ganglion-cyst         | Ganglion Cyst]]         | 68  | 19.4% |
-| [[pathologies/fracture              | Fracture]]              | 61  | 17.4% |
-| [[pathologies/baker-cyst            | Baker Cyst]]            | 58  | 16.6% |
-| [[pathologies/cord-signal-changes   | Cord Signal Changes]]   | 52  | 14.9% |
-| [[pathologies/tendinopathy          | Tendinopathy]]          | 51  | 14.6% |
-| [[pathologies/spinal-stenosis       | Spinal Stenosis]]       | 28  | 8.0%  |
-| [[pathologies/avascular-necrosis    | Avascular Necrosis]]    | 25  | 7.1%  |
-| [[pathologies/tumor-mass            | Tumor/Mass]]            | 22  | 6.3%  |
+| Pathology | Co-occurrence Count | % |
+|---|---|---|
+| [[pathologies/degenerative-changes|Degenerative Changes]] | 315 | 90.0% |
+| [[pathologies/joint-effusion|Joint Effusion]] | 216 | 61.7% |
+| [[pathologies/synovitis|Synovitis]] | 211 | 60.3% |
+| [[pathologies/meniscal-tear|Meniscal Tear]] | 173 | 49.4% |
+| [[pathologies/disc-bulge-herniation|Disc Bulge/Herniation]] | 115 | 32.9% |
+| [[pathologies/disc-desiccation|Disc Desiccation]] | 109 | 31.1% |
+| [[pathologies/osteochondral-lesion|Osteochondral Lesion]] | 79 | 22.6% |
+| [[pathologies/ganglion-cyst|Ganglion Cyst]] | 68 | 19.4% |
+| [[pathologies/fracture|Fracture]] | 61 | 17.4% |
+| [[pathologies/baker-cyst|Baker Cyst]] | 58 | 16.6% |
+| [[pathologies/cord-signal-changes|Cord Signal Changes]] | 52 | 14.9% |
+| [[pathologies/tendinopathy|Tendinopathy]] | 51 | 14.6% |
+| [[pathologies/spinal-stenosis|Spinal Stenosis]] | 28 | 8.0% |
+| [[pathologies/avascular-necrosis|Avascular Necrosis]] | 25 | 7.1% |
+| [[pathologies/tumor-mass|Tumor/Mass]] | 22 | 6.3% |
 
 ## Case Registry (350 cases)
 
