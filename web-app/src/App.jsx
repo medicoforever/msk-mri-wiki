@@ -272,8 +272,8 @@ export default function App() {
     async function loadData() {
       try {
         const [repRes, statRes] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/parsed_reports.json`),
-          fetch(`${import.meta.env.BASE_URL}data/stats.json`)
+          fetch(`${import.meta.env.BASE_URL}data/parsed_reports.json`, { cache: 'no-cache' }),
+          fetch(`${import.meta.env.BASE_URL}data/stats.json`, { cache: 'no-cache' })
         ]);
         const repData = await repRes.json();
         const statData = await statRes.json();
