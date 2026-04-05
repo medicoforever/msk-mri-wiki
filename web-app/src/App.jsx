@@ -80,7 +80,26 @@ function ComboSearch() {
   const [selectedRegion, setSelectedRegion] = useState(() => {
     return searchParams.get('region') || '';
   });
+  const [searchTerm, setSearchTerm] = useState(() => {
+    return searchParams.get('q') || '';
+  });
   
+  // Keep state in sync with URL changes when clicking external links
+  useEffect(() => {
+    const p = searchParams.get('pathology');
+    if (p && !selectedPaths.includes(p)) {
+      setSelectedPaths(prev => [...prev, p]);
+    }
+    const r = searchParams.get('region');
+    if (r && r !== selectedRegion) {
+      setSelectedRegion(r);
+    }
+    const q = searchParams.get('q');
+    if (q && q !== searchTerm) {
+      setSearchTerm(q);
+    }
+  }, [searchParams]);
+
   const allPathologies = Object.keys(stats.pathCounts || {}).sort();
   
   const handlePathChange = (e) => {
@@ -104,6 +123,13 @@ function ComboSearch() {
     const rPaths = r.pathologies.map(p => p.toLowerCase());
     for(const p of selectedPaths) {
       if (!rPaths.includes(p.toLowerCase())) return false;
+    }
+    
+    // 3. Free Text Search check
+    if (searchTerm) {
+      const termLower = searchTerm.toLowerCase();
+      const fullText = (r.reportText || '').toLowerCase();
+      if (!fullText.includes(termLower)) return false;
     }
     
     return true;
@@ -135,6 +161,17 @@ function ComboSearch() {
              <option value="">All Regions</option>
              {Object.keys(stats.regionCounts || {}).sort().map(r => <option key={r} value={r}>{r}</option>)}
           </select>
+        </div>
+        
+        <div style={{ flex: 1, minWidth: '250px' }}>
+          <label style={{ display: 'block', marginBottom: '8px', color: 'var(--accent-color)' }}>Keyword Search:</label>
+          <input 
+            type="text" 
+            placeholder="e.g. 'grade II' or 'fracture'" 
+            value={searchTerm} 
+            onChange={(e) => setSearchTerm(e.target.value)} 
+            style={{ width: '100%', padding: '8px', background: 'var(--panel-bg)', color: 'var(--text-primary)', border: '1px solid var(--panel-border)', borderRadius: '4px' }}
+          />
         </div>
       </div>
       
